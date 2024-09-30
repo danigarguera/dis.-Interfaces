@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Listas </title>
+</head>
+<style>
+    #primera{
+        list-style: lower-roman;
+    }
+    #subordenada{
+        list-style: lower-alpha;
+    }
+    #subdesordenada{
+        list-style-type: disc;
+    }
+    #segunda{
+        list-style-type: square;
+    }
+</style>
+<body>
+<ol id="primera">
+    <li>General aviation</li>
+    <ol id="subordenada"><li>Single aviation aircraft</li>
+    <li>Dual Engine aircraft</li>
+    </ol>
+    <li>Commercial Aviationgine</li>
+    <ul id="subdesordenada">
+        <li>Dual Engine</li>
+        <li>Tri-Engine</li>
+    </ul>
+</ol>
+    <ul id="segunda">
+        <li>A</li>
+        <ul id="subdesordenada">
+            <li>B</li>
+            <ol>
+                <li>C</li>
+                <li>D</li>
+            </ol>
+            <li>E</li>
+            <ul>
+                <li>F</li>
+                <li>G</li>
+            </ul>
+        </ul>
+        <li>B</li>
+    </ul>
+</body>
+</html>
