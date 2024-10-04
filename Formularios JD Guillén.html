@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <fieldset id="1">
+        <legend>Datos Personales </legend>
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required />
+    
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" name="apellidos" required />
+    
+            <label for="DNI">DNI: </label>
+            <input type="text" name="DNI" required />
+        </p>
+        <p>
+            <label for="lNacimiento">Lugar de Nacimiento:</label>
+            <input type="text" name="lNacimiento" required />
+            <label for="provincia">Provincia:</label>
+            <select name="provincia">
+                <optgroup label="Extremadura">
+                    <option selected>Cáceres</option>
+                    <option>Badajoz</option>
+                </optgroup>
+            </select>
+            <label for="fNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" name="fNacimiento">
+        </p>
+        <p>
+            <label for="direccion">Direccion:</label>
+            <input type="text" name="direccion" required />
+            <label for="cp">Código postal:</label>
+            <input type="text" name="cp" required />
+        </p>
+        <p>
+            <input type="submit" value="Enviar" />
+        </p>
+    </fieldset>
+    
+    <fieldset id="2">
+        <legend>Forma de Acceso</legend>
+        <div>
+            <input type="radio" name="acceso" id="directo" value="directo">
+            <label for="directo">Directo</label>
+        </div>
+        <ul>
+        <div>
+            <input type="radio" name="acceso" id="bachillerato" value="bachillerato">
+            <label for="bachillerato">Bachillerato</label>
+            <input type="text" name="detalle_bachillerato">
+        </div>
+        <div>
+            <input type="radio" name="acceso" id="universidad" value="universidad">
+            <label for="universidad">Universidad</label>
+        </div>
+        <div>
+            <input type="radio" name="acceso" id="grado_medio" value="grado_medio">
+            <label for="grado_medio">Grado Medio</label>
+            <input type="text" name="detalle_grado_medio">
+        </div>
+        <div>
+            <input type="radio" name="acceso" id="otros" value="otros">
+            <label for="otros">Otros (especifique)</label>
+            <input type="text" name="detalle_otros">
+        </div>
+    </ul>
+        <div>
+            <input type="radio" name="acceso" id="prueba_libre" value="prueba_libre">
+            <label for="prueba_libre">Prueba libre</label>
+        </div>
+    </fieldset>
+    
+    <fieldset id="3">
+        <legend>Documentos Adjuntados</legend>
+        <p>
+            <input type="checkbox" name="fotocopia_dni" id="fotocopia_dni">
+            <label for="fotocopia_dni">Fotocopia del DNI</label>
+            
+            <input type="checkbox" name="certificado_academico" id="certificado_academico">
+            <label for="certificado_academico">Certificado Académico</label>
+        </p>
+        <p>
+            <input type="checkbox" name="otros_documentos" id="otros_documentos">
+            <label for="otros_documentos">Otros (especifique)</label>
+            <input type="text" name="detalle_otros_documentos">
+        </p>
+    </fieldset>
+    
+
+</body>
+
+</html>
