@@ -1,0 +1,68 @@
+table{
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+th{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+th::first-letter{
+    font-size: 2em;
+}
+td:nth-child(1){
+background-color: green;}
+tr:nth-child(3){
+background-color: yellow;}
+
+/* Aplica el hover solo a las celdas del viernes */
+tbody tr td:nth-child(6):hover {
+    font-size: 2em;
+}
+
+/* Aplica el hover a las celdas del viernes en las filas donde hay colspan */
+tbody tr td:nth-child(5):hover {
+    font-size: 2em;
+}
+
+/* Ajusta el hover para la fila donde el colspan afecta la cuenta */
+tbody tr:nth-child(2) td:nth-child(5):hover {
+    font-size: 2em;
+}
+
+
+td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+a{
+text-decoration: none;
+color:green
+}
+a:visited{
+color: red;
+}
+
+
+label[for="Email"]::after {
+    content: ' *';
+    color: red; /* Color rojo para el asterisco */
+}
+
+input[type="email"] {
+    border: 2px solid red; /* Borde rojo */
+    font-size: 16px; /* Aumentar tamaño de la fuente */
+    width: 300px; /* Ancho de la caja */
+    padding: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
