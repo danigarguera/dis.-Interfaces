@@ -33,6 +33,7 @@ h2 {
 }
 
 .columna-izquierda {
+    padding-left: 1.5em;
     width: 16em;
     padding-right: 1em;
 }
