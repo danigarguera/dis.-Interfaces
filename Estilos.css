@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 16px; /* Escala flexible */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.contenedor {
+    width: 60em;
+    padding: 1em;
+}
+
+/* Encabezado centrado */
+h1 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+}
+
+/* Datos del libro y descripción */
+h2 {
+    font-size: 1.5em;
+    color: #444;
+}
+
+/* Organización en dos columnas */
+.contenido {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.columna-izquierda {
+    width: 16em;
+    padding-right: 1em;
+}
+
+.columna-derecha {
+    flex: 1;
+}
+
+/* Lista en una sola columna sin puntos */
+.lista-columnas {
+    display: flex; /* Distribuir cada li como columna */
+    list-style-type: none; /* Eliminar los puntos */
+    padding-left: 0;
+    gap: 1em; /* Espacio entre columnas */
+}
+.lista-columnas li {
+    margin-bottom: 1em; /* Espacio entre elementos */
+}
+
+/* General styling for lists and paragraphs */
+ul {
+    padding-left: 1.2em;
+}
+
+p {
+    margin-bottom: 1em;
+}
