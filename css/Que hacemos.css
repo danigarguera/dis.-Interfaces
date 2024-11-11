@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+body {
+    background-color: #FFBD59;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FAD516;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#info {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    width: 4em;
+}
+
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Chewy', cursive;
+    margin: 0;
+}
+h2 {
+    font-family: 'Chewy', cursive;
+    color: black;
+    text-align: center;
+}
+
+nav {
+    background-color: #FAD516;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#menu li a:hover {
+    color: #FFBD59;
+}
+
+#centro {
+    background-color: #FAD516;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#apicultor {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+#video {
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+    border: solid 3px black;
+    margin-top: 10px;   
+    border-radius: 10px;
+}
+
+
+
+#info p {
+    text-align: justify;
+}
+
+footer {
+    background-color: #FAD516;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+#redes {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center;
+    gap: 15px; /* Espacio entre cada imagen */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#redes li {
+    list-style: none;
+}
+
+#redes img {
+    width: 30px;           /* Ajusta el tamaño de las imágenes */
+    height: auto;          /* Mantiene la proporción */
+    border-radius: 50%;    /* Hace las imágenes redondas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+#redes img:hover {
+    transform: scale(1.2); /* Aumenta ligeramente el tamaño al pasar el cursor */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el cursor */
+}
+
+
+#derechos, #desarrollado {
+    font-size: 10px;
+}
