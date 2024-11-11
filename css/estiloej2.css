@@ -1,0 +1,61 @@
+/*Juan Daniel Guillén Guerrero 2º DAW*/
+
+header{
+    background-color:  #333;
+    color: white;
+
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+a:hover{
+    color: #a9065d;
+}
+ul{
+    display: flex;
+    
+    justify-content: space-around;
+    
+    list-style-type: none;
+    padding: 1%;
+    
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #0b0a0a;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.button-container a{
+    border: 1px, solid, #4CAF50;
+    width: 15%;
+    text-align: center;
+    height: auto;
+    border-radius: 4px;
+    padding: 1%;
+    color: #0b0a0a;
+
+}
+.button-container a:hover{
+background-color: #4CAF50;
+}
+.button img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    padding: 1%;
+    
+}
