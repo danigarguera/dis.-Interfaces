@@ -35,7 +35,7 @@ h2 {
     text-align: center;
 }
 
-/* Estilos del menú de navegación */
+
 nav {
     background-color: #FAD516;
     border: solid 3px black;
@@ -64,7 +64,7 @@ nav {
     color: #FFBD59;
 }
 
-/* Ajustes para el cuerpo */
+
 #cuerpo {
     display: flex;
     justify-content: center;
@@ -76,19 +76,19 @@ nav {
     border: solid 3px black;
     border-radius: 10px;
     width: 100%;
-    max-width: 900px; /* Limita el ancho del formulario */
+    max-width: 900px; 
     padding: 20px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra los elementos del formulario */
+    align-items: center; 
     text-align: center;
 }
 
 .input-group {
-    margin-bottom: 20px; /* Aumenta el espaciado entre los inputs */
+    margin-bottom: 20px; 
 }
 
 .input-group label {
@@ -98,13 +98,13 @@ form {
 }
 
 .input-group input {
-    width: 90%; /* Aumenta el ancho de los inputs */
-    padding: 12px; /* Mantiene el padding consistente con la anchura */
+    width: 90%; 
+    padding: 12px; 
     margin-top: 5px;
-    margin-bottom: 10px; /* Espaciado extra debajo del input */
-    border: 2px solid #ccc; /* Borde más suave */
+    margin-bottom: 10px; 
+    border: 2px solid #ccc; 
     border-radius: 5px;
-    font-size: 16px; /* Mantiene el tamaño de la fuente ajustado */
+    font-size: 16px; 
 }
 
 .input-group input:focus {
@@ -113,7 +113,7 @@ form {
 }
 
 button.btn {
-    width: 90%; /* Hace el botón tan ancho como el input */
+    width: 90%; 
     padding: 12px;
     font-size: 16px;
     background-color: #FAD516;
@@ -123,14 +123,14 @@ button.btn {
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;
-    margin-top: 20px; /* Añade espacio arriba del botón */
+    margin-top: 20px; 
 }
 
 button.btn:hover {
-    background-color: #FFBD59; /* Color más claro al pasar el cursor */
+    background-color: #FFBD59; 
 }
 
-/* Estilos para el pie de página */
+
 footer {
     background-color: #FAD516;
     border: solid 3px black;

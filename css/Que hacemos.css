@@ -117,9 +117,9 @@ footer {
 
 #redes {
     display: flex;
-    justify-content: center; /* Centra las imágenes horizontalmente */
+    justify-content: center; 
     align-items: center;
-    gap: 15px; /* Espacio entre cada imagen */
+    gap: 15px; 
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -130,15 +130,15 @@ footer {
 }
 
 #redes img {
-    width: 30px;           /* Ajusta el tamaño de las imágenes */
-    height: auto;          /* Mantiene la proporción */
-    border-radius: 50%;    /* Hace las imágenes redondas */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+    width: 30px;           
+    height: auto;          
+    border-radius: 50%;    
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 #redes img:hover {
-    transform: scale(1.2); /* Aumenta ligeramente el tamaño al pasar el cursor */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el cursor */
+    transform: scale(1.2); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 
